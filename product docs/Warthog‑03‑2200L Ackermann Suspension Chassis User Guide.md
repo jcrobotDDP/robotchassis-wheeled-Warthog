@@ -296,6 +296,194 @@ For Ackermann wheeled chassis or gun-style handheld remote controllers, refer to
 <details>
 <summary><h2 style="display:inline; color: #FCBAD3">📖 6 User Manual</h2></summary>
 
+### 6.1 Product Overview
+
+The WARTHOG-03-2200L is a general‑purpose wheeled robot mobile chassis featuring front Ackermann steering and a rear solid‑axle differential drive. This chassis is fully featured and highly integrated, with various customisable configurations to suit multiple operating conditions. The independently developed front suspension features a compact and unique design, employing a double wishbone with left‑right balancing and a transversely mounted push‑rod single‑reducer layout, significantly enhancing and optimising vehicle stability and terrainability. The rear drive configuration utilises a solid differential axle, equipped with brushless DC motors and drivers. The motors are fitted with encoders, and the drivers offer comprehensive communication interfaces. The standard power lithium battery is 48V 30Ah, with a BMS battery protection system. The braking system features front disc and rear drum brakes, providing both service and parking brake functions. The chassis uses explosion‑proof solid tyres, offering strong terrain adaptability and low maintenance. The exterior housing has been carefully designed with industrial aesthetics, providing ample internal space for the installation of various electrical equipment. This chassis is suitable for all applications where wheeled chassis are required, and can be widely used in special‑purpose robot industries such as reconnaissance, inspection, exploration, scientific research, and education.
+
+---
+
+### 6.2 Technical Dimensions (Diagram)
+
+<img width="827" height="463" alt="image" src="https://github.com/user-attachments/assets/0738a1e6-86fb-4b5d-b454-2f28160e4ad5" />
+
+*Dimensions shown in the diagram are in mm.*
+
+---
+
+### 6.3 Mechanical Specifications
+
+| Parameter | Value | Parameter | Value |
+| :--- | :---: | :--- | :---: |
+| Overall dimensions | 1615 × 830 × 480 mm | Internal compartment size | 1250 × 435 × 100 mm (empty) |
+| Chassis weight (unloaded) | 160 kg | Operating speed | 0 – 21 km/h |
+| Tyre type / specification | Puncture‑proof explosion‑proof rubber tyre / 15 inch | Chassis height | 130 mm |
+| Main material | Carbon steel / alloy steel plate / aluminium | Protection rating | IP54 |
+| Damping shock absorbers | Front 2, Rear 2 | Surface finish | Paint / powder coating |
+| Drive motor | 48V 1650W brushless DC | Design payload | 300 kg |
+| Rear axle gear ratio | Two‑speed: 1:10 / 1:20 | Max climbing angle | 10° |
+| Max obstacle clearance | 120 mm | Turning radius | 2.5 m |
+| Brake configuration | Parking brake | Parking brake (equipped / not) | Equipped |
+| Battery capacity | 48V / 30Ah | Range | 20 km |
+
+---
+
+### 6.4 Electrical Specifications
+
+| Parameter | Value | Parameter | Value |
+| :--- | :---: | :--- | :---: |
+| Supply voltage | DC 48 V | Motor type | Brushless DC motor |
+| Max total power | 1100 W | Standby power consumption | ≤ 50 W |
+| Steering motor power | 200 W / 48 V | Rear drive motor | 800 W / 48 V |
+| Encoder | 1000 lines | Driver model | 6050‑1E |
+| Remote control range | 200 m (line‑of‑sight) | Remote control channels | 9T |
+| Chassis total weight | 110 kg | Chassis total current | 5.8 A |
+
+---
+
+### 6.5 Electrical Schematic
+
+<img width="1056" height="792" alt="image" src="https://github.com/user-attachments/assets/bbe639f8-cdc6-4b26-a906-f8932bb7461a" />
+
+a) **Battery**: Standard 48V 30Ah lithium battery, maximum voltage 54.6V, cut‑off discharge voltage 39V.  
+**Note:** Use the dedicated 48V lithium battery charger. Battery failure caused by over‑discharge is not covered under warranty.
+
+b) **Driver operating conditions:** Temperature -20°C to +60°C, humidity ≤ 80% RH.  
+**Note:** Ensure the driver operates within these conditions; problems arising from unsuitable environments are not covered under warranty.
+
+c) **Main relay:** Coil voltage 48V, main contact current 100A, normal temperature rise 60°C.
+
+---
+
+### 6.6 Development Documentation
+
+> Click to view:
+
+[JC-VCU-02 Produvt Guide and Software](https://github.com/jcrobotDDP/JCROBOT-Product-Development-Documentation/blob/main/docs/JC-VCU-02%20Product%20Guide%20and%20Software.md)
+
+---
+
+### 6.7 Safety Precautions
+
+a) **Important statement:** To ensure safe use, read this manual carefully before operation. When operating any Jichuang product, always pay attention to personal and equipment safety. The manufacturer and distributor assume no responsibility for any consequences arising from the operation and use of this product. This product is intended only for adults with safety awareness and the ability to handle emergencies. After sale, we assume no safety responsibility for its operation or use.
+
+b) **Pre‑operation inspection:**
+- Check the condition of each component before operation to ensure a good experience.
+- Check for missing or loose nuts and bolts.
+- Check that the drive wheel fastening screws are tight.
+- Check that the suspension system is properly aligned.
+- Check that the antenna is effectively connected.
+
+c) **Operational notes:**
+- Do not operate the vehicle when the remote controller low‑voltage alarm sounds, as sudden signal loss may cause loss of control.
+- Ensure the receiver antenna is properly connected before powering on.
+- When the remote controller indicator dims, the battery is low – replace the batteries.
+- When the chassis power battery is low, the vehicle speed will decrease – recharge promptly.
+
+**Special reminder:**  
+Beginners should first practise at low speed in an open area to become familiar with the controls. When moving the joysticks, push them smoothly and slowly. Because the driver's acceleration/deceleration ramp time is short, frequent sudden starts and stops will increase load on the motors, drivers, and battery.
+
+You may simulate a loss‑of‑control situation by turning off the remote controller while the chassis is moving; at that moment, press the emergency stop button immediately. Practise this repeatedly to improve emergency response skills.
+
+---
+
+### 6.8 Operating Instructions
+
+**1) Power‑on/off sequence**
+
+First, turn on the remote controller power switch, then turn on the chassis main power and release the emergency stop. Wait for the receiver to establish communication (remote controller shows full signal). Then operate the remote controller to start movement.
+
+**Power‑on sequence:** 1. Turn on remote controller first, 2. Then turn on chassis power.
+
+**2) Remote controller operation**
+
+This chassis uses the driver internal independent mode. Remote controller Channel 1 controls the steering angle, and Channel 2 controls straight motion. Both joysticks offer proportional control – the joystick deflection angle determines the speed and steering angle. Avoid abrupt large movements and frequent sudden starts/stops.
+
+**3) Binding the remote controller and receiver**
+
+a. Power on the receiver. Press and hold the binding button on the side of the receiver for 3 seconds – the receiver enters binding mode, with the red LED flashing slowly.
+
+b. Power on the remote controller (ensure only one compatible remote controller is powered on nearby). Keep it close to the receiver, and wait for the receiver to receive the binding signal.
+
+c. When the receiver red LED stays on, binding is successful.
+
+**Note:** Binding is usually completed at the factory. After rebinding a chassis equipped with VCU, the receiver mode must be set to S.bus mode (the receiver indicator will turn blue‑purple).
+
+**4) Battery charging**
+
+a. Unscrew the dust cap from the 2‑pin aviation charging connector on the chassis.
+
+b. Plug the charger's 2‑pin aviation connector into the chassis (observe polarity: Pin 1 positive, Pin 2 negative).
+
+c. Connect the charger to 220V AC mains.
+
+d. When the charger indicator changes and the fan stops, continue balanced charging for 1 hour to complete the process.
+
+e. Disconnect from AC mains, unplug the charger, tighten the waterproof cap, and store the charger properly for future use.
+
+**Important:** Charging time = battery capacity / charging current + 1 hour (balancing time). Someone should monitor the charging process; do not overcharge for extended periods. Place the charger and chassis (battery) in a cool, well‑ventilated area, away from heat and fire sources.
+
+---
+
+### 6.9 Maintenance and Servicing
+
+**1) Routine maintenance during operation**
+
+a. **Cleaning:** Keep the exterior clean. Wipe painted surfaces with a soft cloth and neutral cleaner to avoid damage and scratches. Ensure all sliding surfaces, mating surfaces, and lubrication points are free of oil and dirt.
+
+b. **Lubrication:** Regularly inspect and apply lithium‑based grease to the spherical plain bearings at the front and rear suspension points, and to the lubrication points on the steering gear.
+
+c. **Adjustment:** Regularly inspect all fasteners for tightness; check for loose or missing screws to ensure safety, reliability, and control accuracy.
+
+d. **Safety:** Regularly verify that controls are responsive and reliable, and that active and passive safety devices (such as collision bumpers, emergency stop switches, service brakes, parking brakes, and steering controls) operate correctly.
+
+**2) Long‑term storage maintenance**
+
+a. If the chassis will be stored for a long period, keep it in a cool, dry, and well‑ventilated environment. Protect from dust and keep components clean. Apply oil lubrication to moving parts and mating surfaces.
+
+b. For extended storage, disconnect the battery charge/discharge connectors, maintain about 80% capacity, and check and recharge at least once a month.
+
+c. When recommissioning the chassis, ensure all parts are well lubricated and the reducer oil has not aged or deteriorated.
+
+**3) Replacement of wear parts and accessories**
+
+a. **Ball bearings:** If front wheel assemblies become loose, noisy, or jammed, replace the bearings with the same model (6004‑2LS, 4 pieces per chassis).
+
+b. **Spherical plain bearings:** Used in the front and rear suspension and steering gear. If they become loose or sluggish, replace with the same model. Model numbers are marked on the parts. Specific models include: SA8T/K (2 pieces/chassis), SAL8T/K (2 pieces/chassis), SI10T/K (4 pieces/chassis), SA12T/K (4 pieces/chassis), SAL12T/K (4 pieces/chassis).
+
+c. **Oil‑free bronze bushings:** Used at the connection between the front suspension A‑arm and the front suspension frame to ensure smooth articulation. If they become loose or sluggish, replace with the same model (SF‑1F10120, 12 pieces/chassis).
+
+**4) Common faults and troubleshooting**
+
+| No. | Fault Symptom | Possible Cause | Solution |
+| :---: | :--- | :--- | :--- |
+| 1 | No response to remote control | Chassis main power off; emergency stop not released; remote battery low; receiver not bound | Turn on main power; release emergency stop; replace batteries; perform binding procedure |
+| 2 | Chassis speed becomes very slow | Power battery low | Charge the battery |
+| 3 | No movement and driver red LED stays on | Excessive ambient humidity | Dry the driver |
+| 4 | Remote control range decreases | Receiver antenna loose or disconnected | Tighten the receiver antenna |
+
+---
+
+### 6.10 Transport Conditions
+
+**1) Packaging dimensions**
+
+*Dimensions are shown in the diagram in the original document (no numerical values provided).*
+
+**2) Handling requirements:**
+
+a. The chassis is packed in a wooden crate with a wooden pallet base; total mass 150 kg. Use a pallet jack or forklift to move the pallet. When moving, do not tilt the crate more than 15 degrees. Ensure the fork fully supports the pallet to prevent tipping due to uneven centre of gravity. **Do not lift by the top cover or side panels** – the pallet may detach and damage the chassis.
+
+b. The chassis may be driven onto the pallet using the remote controller. After placing it correctly, disconnect power, press the emergency stop, and preferably disconnect both discharge and charging connectors to prevent short circuits during transport.
+
+c. When manually handling the chassis, ensure it is powered off.
+
+**3) Transport environment notes:**
+
+a. Do not invert the crate during transport.
+
+b. Keep the crate dry.
+
+c. Avoid strong vibrations during transport.
 
 </details>
 
@@ -341,6 +529,12 @@ For inquiries or feedback, contact:
 <details>
 <summary><h2 style="display:inline; color: #FF9AA2">🔗 9 Extended Models & Related Solutions</h2></summary>
 
+
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/zode8gyagawg14lk](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/zode8gyagawg14lk)
+
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/ua85o4reexg1xlt5](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/ua85o4reexg1xlt5)
+
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/gegkl5608qx3c81h](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/gegkl5608qx3c81h)
 
 </details>
 
