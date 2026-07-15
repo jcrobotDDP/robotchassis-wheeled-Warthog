@@ -1,0 +1,347 @@
+# <span style="color: #FF6B6B">Warthog‑03‑2200L Ackermann Suspension Chassis User Guide</span>
+
+<img width="5000" height="3329" alt="image" src="https://github.com/user-attachments/assets/b2402381-249d-4333-875b-454d8b2f554c" />
+
+## Pre-use Notice
+
+To ensure safe and convenient use of this product, JROBOT provides the following documentation:
+
+1. Packing List
+
+2. Disclaimer
+
+3. Safety Operation Guidelines
+
+4. Battery Safety Instructions
+
+5. Quick Start Guide
+
+6. User Manual
+
+7. Warranty Card
+
+Users are advised to first verify the completeness of documentation and items against the Packing List, then read this document thoroughly to familiarize yourself with all product functions before use.
+
+If you have any questions during operation, please contact JROBOT or an authorized JROBOT service provider.
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #4ECDC4">📋 1 Packing List</h2></summary>
+
+|Category|Contents|
+|---|---|
+|Chassis Assembly|- [ ] Robot chassis × 1<br>- [ ] Drive controller × 1<br>- [ ] VCU (Vehicle Control Unit) × 1|
+|Power & Accessories|- [ ] Lithium-ion battery × 1<br>- [ ] Battery charger × 1|
+|Remote Control System|- [ ] Remote controller and receiver × 1<br>- [ ] Robot antenna × 1 (or built-in)|
+|Documentation|- [ ] Electronic documentation × 1 set|
+|Others|To be supplemented|
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #FFE66D">⚖️ 2 Disclaimer</h2></summary>
+
+Thank you for purchasing a JROBOT chassis product. The content of this document relates to your safety, legal rights and responsibilities. Failure to follow the instructions and warnings in this document may result in personal injury to you and surrounding personnel, as well as damage to the product and nearby property.
+
+JROBOT reserves the right of final interpretation of this document and all related product documentation. Content is subject to change without prior notice. Please visit the official website at  [https://robot-chassis.com/](https://robot-chassis.com/) for the latest product information.
+
+- By using this product, you acknowledge that you have carefully read the disclaimer and warnings, and understand, accept and agree to all terms and conditions herein.
+
+- You agree to take full responsibility for the consequences of using this product, use it only for lawful purposes, and comply with this statement as well as all relevant regulations, policies and guidelines established by JROBOT.
+
+- JROBOT shall not be liable for any damage, injury or legal liability arising directly or indirectly from the use of this product. Users must follow all safety guidelines mentioned in this document and beyond.
+
+- This product is not a toy. It consists of metal components and may have sharp edges. It is not intended for use by persons under 18 years of age. Keep the product out of reach of children. Exercise extreme caution when operating in areas where children are present.
+
+- Notwithstanding the above provisions, consumer rights shall be protected by applicable local laws and regulations and shall not be affected by this disclaimer.
+
+- JROBOT, 极创, and JROBOT are trademarks of JROBOT Intelligent Technology (Shandong) Co., Ltd. All product names and brands mentioned herein are trademarks or registered trademarks of their respective owners.
+
+Please read this manual carefully before use to help you better develop and operate the product. Keep this manual in a safe place for future reference when selecting accessories and performing maintenance.
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #95E1D3">⚠️ 3 Safety Operation Guidelines</h2></summary>
+
+### 3.1 Operating Environment
+
+- Operate only in open areas away from crowds, buildings and sources of electromagnetic interference.
+
+- Operate at altitudes below 5000 meters above sea level.
+
+- Operate in temperatures between -20°C and 55°C, in good weather conditions (no rain, fog, snow, lightning, strong winds or extreme weather).
+
+- Operate only in legal areas. Do not drive on motor vehicle roads.
+
+- Operate within 300 meters line-of-sight for RC remote controls, and within 500 meters line-of-sight for industrial remote controls. Ensure the surrounding area is open and safe.
+
+### 3.2 Pre-power-on Checks
+
+- Ensure the robot, remote controller and mobile device are fully charged.
+
+- Ensure the battery is securely installed and upper-mounted equipment is properly fastened.
+
+- Ensure tracks are intact and free of foreign objects, and power components and antennas are undamaged.
+
+- Ensure the remote controller antenna shows full signal strength.
+
+- Ensure all screws on the body and suspension system are tight and secure.
+
+### 3.3 Operation Specifications
+
+- Always operate within visual line-of-sight.
+
+- After power-on, perform a test run: left turn, right turn, forward, reverse. Begin formal operation only after confirming no abnormalities.
+
+- Do not accelerate or decelerate abruptly during initial operation.
+
+- Power-on sequence: Turn on the remote controller first, then turn on the robot power and release the emergency stop.
+
+- Power-off sequence: Turn off the robot chassis first, then turn off the remote controller. This prevents abnormal operation caused by loss of remote signal.
+
+- New users should practice at low speed in an open area first to get familiar with the controls. Push the joystick slowly and smoothly. The drive has a short ramp-up/ramp-down time; frequent abrupt starts and stops will increase stress on the motor, drive and battery.
+
+- Simulate emergency conditions by turning off the remote controller while the chassis is moving. Practice pressing the emergency stop button quickly to improve emergency response capability.
+
+### 3.4 Maintenance Requirements
+
+- After each operation, inspect and promptly remove foreign objects from the tracks. Lubricate and service according to the maintenance manual.
+
+- The robot, remote controller and lithium battery are suitable for long-term storage at 22°C to 28°C.
+
+- Refer to the Battery Safety Instructions for lithium battery maintenance.
+
+- For long-term storage, disconnect the battery charge/discharge connectors, maintain the battery at approximately 80% charge, and recharge once a month to prevent battery damage from deep discharge.
+
+**Planetary Reducer Maintenance:**
+
+1. Inspect whether the oil seal is immersed in lubricant if the reducer has been stored for more than 4 months, operated for 6000 hours, or used for half a year (whichever comes first). Replace the oil seal promptly if it loses elasticity.
+
+2. Replace lubricant after the first 300 hours of operation (gear break-in period), and then every 12000 hours of operation. Do not mix oils of different grades. Oils of the same grade but different viscosity may be mixed.
+
+3. Inspect oil quality every six months. Replace immediately if the oil contains impurities, is aged or deteriorated. Lubrication must be performed with the reducer stopped. Fill oil to 3/4 of the reducer internal volume (approximately 2.22L). Recommended oil grade: ISO VG220.
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #F38181">🔋 4 Battery Safety Instructions</h2></summary>
+
+Improper use, charging or storage of the battery may cause fire, resulting in property damage and personal injury. Please strictly follow the safety guidelines below.
+
+### 4.1 Usage Specifications
+
+- Ensure the battery is fully charged before each use.
+
+- Never expose the battery to any liquid. Do not immerse or wet the battery. Never use the battery in rain or humid environments; water ingress inside the battery may cause spontaneous combustion or even explosion.
+
+- Never use batteries not provided by the official manufacturer. Consult the official supplier for replacement purchases. JROBOT is not responsible for accidents or malfunctions caused by non-official batteries.
+
+- Never use swollen, leaking or damaged batteries. Contact the official or authorized supplier for disposal if such conditions occur.
+
+- Battery operating temperature range: -20°C to 50°C. Excessively high temperatures may cause fire or explosion; excessively low temperatures will severely reduce battery life.
+
+- Do not use the battery in environments with strong static electricity or magnetic fields, as this may cause the battery protection board to malfunction.
+
+- Do not disassemble or puncture the battery with sharp objects in any way, as this may cause fire or explosion.
+
+- The liquid inside the battery is highly corrosive. Keep away and stop using immediately if leakage occurs.
+
+- Do not reuse the battery after severe impact or dropping.
+
+- Do not short-circuit the battery positive and negative terminals with wires or other metal objects.
+
+- Do not impact the battery or place heavy objects on the battery or charger.
+
+- Wipe dirt from battery connectors with a dry cloth. Poor contact will cause energy loss or charging failure.
+
+- Do not continue using the battery when charge level drops below 10%, as this will cause permanent battery damage.
+
+### 4.2 Charging Procedure
+
+1. Unscrew the dust cap from the 2-pin aviation connector on the vehicle body
+
+2. Align and insert the charger's 2-pin aviation plug into the vehicle interface (note polarity: pin 1 positive, pin 2 negative)
+
+3. Plug the charger into 220V mains power
+
+4. When the charger indicator changes status and the fan stops running, continue balance charging for 1 hour to complete charging
+
+5. Disconnect the mains power, remove the charger, screw the waterproof cap back on and store properly
+
+> **Notes**
+> 
+> - Charging time = Battery capacity / Charging current + 1 hour (balance time)
+> 
+> - Charging must be attended at all times. Do not leave the battery on charge unattended for extended periods.
+> 
+> - Place the charger and chassis in a well-ventilated, cool area during charging. Keep away from high temperatures and fire sources.
+> 
+
+### 4.3 Storage & Transportation
+
+- If the battery is low after use or will not be used for more than 30 days, charge to 30%–50% before storage. Never store a fully discharged battery long-term, as this may cause permanent cell damage from over-discharge.
+
+- Do not place the battery near heat sources, such as inside a car in direct sunlight, near open flames or heating furnaces. Ideal battery storage temperature is 25°C.
+
+- Store in a dry environment. Do not place the battery in water or areas prone to water leakage.
+
+- Do not mechanically impact, crush or puncture the battery. Do not drop or intentionally short-circuit the battery.
+
+- Do not store or transport the battery together with other sharp metal objects.
+
+- Never transport damaged batteries or batteries with charge above 30%.
+
+### 4.4 Disposal
+
+- Fully discharge the battery before placing it in a designated battery recycling bin. Batteries are hazardous chemical waste and must never be discarded in ordinary trash bins.
+
+- Follow local laws and regulations regarding battery recycling and waste disposal.
+
+### 4.5 Routine Maintenance
+
+- Long-term idling will degrade battery performance.
+
+- Perform a full charge-discharge cycle approximately every 3 months to maintain battery activity.
+
+- Do not store the battery in environments above 50°C or below -20°C.
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #AA96DA">🚀 5 Quick Start Guide</h2></summary>
+
+### 5.1 Unboxing
+
+Thank you for using our eco-friendly packaging! This product consists of seven components: wooden pallet, left/right side panels, front/back panels, top cover and cable ties. It is easy to assemble and disassemble, environmentally friendly, space-saving, and reusable multiple times.
+
+Follow this order to unbox:
+
+1. Cut the cable ties, open the top cover, and remove the side and end panels
+
+2. Drive or lift the product off the pallet. Fold and store the packaging for future reuse.
+<img width="1426" height="811" alt="image" src="https://github.com/user-attachments/assets/47453da7-7df4-41ae-b5ca-366bfaa3115f" />
+
+
+### 5.2 Power-on Procedure
+
+Turn on the remote controller power switch first, then turn on the vehicle power switch and release the emergency stop. Wait until communication between the remote controller and receiver is established (remote controller shows full signal), then operation is ready.
+
+> Important: Power-on sequence must be: Remote controller ON → Chassis power ON
+
+### 5.3 Remote Controller Operation (AT9)
+
+This chassis remote control and drive are configured for internal mixing mode. Channel 2 and Channel 4 of the remote controller independently control straight travel and steering. The right joystick controls vehicle movement, supporting 8 directions: forward, reverse, left, right, forward-left, forward-right, reverse-left, reverse-right. All are proportional control — joystick deflection angle corresponds to vehicle speed.
+
+> Never push the joystick abruptly. Avoid frequent sudden starts and stops.
+<img width="911" height="782" alt="image" src="https://github.com/user-attachments/assets/600ce183-07e8-43a1-b8f0-be415266f5fb" />
+
+
+**a) Joystick Functions**
+
+- Right joystick (vehicle motion control)
+
+    - Push up: Forward; Pull down: Reverse
+
+    - Push left: Counterclockwise spot turn; Push right: Clockwise spot turn
+
+    - Push upper-left: Forward-left; Push upper-right: Forward-right
+
+    - Pull lower-left: Reverse-left; Pull lower-right: Reverse-right
+
+- Left joystick (PTZ control, reserved)
+
+    - Push up: PTZ tilt up; Pull down: PTZ tilt down
+
+    - Push left: PTZ pan left; Push right: PTZ pan right
+
+    - Push upper-left: PTZ upper-left; Push upper-right: PTZ upper-right
+
+    - Pull lower-left: PTZ lower-left; Pull lower-right: PTZ lower-right
+
+**b) Receiver Channel Settings**
+<img width="818" height="329" alt="image" src="https://github.com/user-attachments/assets/893d8fda-8e60-4d60-bd11-fefccb28ce29" />
+
+
+> Default factory configuration, key parameters:
+> 
+> - Joystick mode: Mode 4
+> 
+> - Model type: GLID (1A+1F)
+> 
+> - Servo travel: Elevator and rudder set to 140%
+> 
+> - Disable flaperon mixing; enable V-tail mixing
+> 
+> - Elevator 1: +100%; Elevator 2: -100%; Rudder 1: +100%; Rudder 2: +100%
+> 
+> - Note: Only one may be enabled: dual-drive internal mixing mode OR remote controller V-tail mixing
+
+**c) Additional Notes**
+For Ackermann wheeled chassis or gun-style handheld remote controllers, refer to the corresponding instructions. All other safety specifications are consistent with this manual.
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #FCBAD3">📖 6 User Manual</h2></summary>
+
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #A8D8EA">📋 7 Warranty Card</h2></summary>
+
+Content is subject to update without notice. Check the latest version on the JROBOT official website: [https://robot-chassis.com/](https://robot-chassis.com/) 
+
+For inquiries or feedback, contact:
+
+- Email: ddpjcrobot@outlook.com  |  jcrobot@163.com
+
+- Phone:
+
+  • +1 (327)208 2104
+
+  • +1 (818)463 9273
+
+  • 0538-6626018
+
+|Item|Content|Item|Content|
+|---|---|---|---|
+|Customer Name||Contract No.||
+|Contact Person||Contact Phone||
+|Fault Description||Service Record||
+|||Technician||
+|||Quality Inspector||
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #7FDBCA">💾 8 3D CAD Models</h2></summary>
+
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline; color: #FF9AA2">🔗 9 Extended Models & Related Solutions</h2></summary>
+
+
+</details>
+
+---
