@@ -1,6 +1,6 @@
 # <span style="color: #FF6B6B">Warthog-02M-Pro 4WD Chassis</span>
 
-
+<img width="955" height="713" alt="image" src="https://github.com/user-attachments/assets/967c63fa-4cc3-4099-aed5-f8e0eee81151" />
 
 ## Pre-use Notice
 
@@ -332,14 +332,12 @@ Joystick: Push up to tilt the gimbal upward, pull down to tilt it downward.
 <details>
 <summary><h2 style="display:inline; color: #FCBAD3">📖 6 User Manual</h2></summary>
   
-### <font style="color:#ED740C;">6.1Product overview：</font>
+### <font style="color:#ED740C;">6.1 Product overview：</font>
 The WARTHOG-02M is a universal wheeled robot mobile chassis, which adopts dual-motor four-wheel drive differential drive, equipped with brushless DC motor and driver, the motor has encoder, and the driver has complete communication interface. The chassis is fully functional and highly integrated, with a variety of customizable configurations for a wide range of operating conditions. The self-developed double-wishbone suspension has excellent torsional strength and lateral rigidity. The vehicle stability, excellent sportiness and high passability. Power lithium battery comes standard with optional 48v60ah and BMS battery protection system. The tires are pneumatic tires.. The appearance of the shell has been carefully designed for industrial use, which is convenient for users to carry electrical equipment. This chassis is suitable for all use scenarios suitable for wheeled chassis work, and can be widely used in special robot application industries such as investigation, inspection, exploration, scientific research, and teaching.
 
 ---
 
-### <font style="color:#ED740C;">6.2Technical features</font>
-
----
+### <font style="color:#ED740C;">6.2 Technical features</font>
 
 <img src="https://cdn.nlark.com/yuque/0/2025/png/35546073/1763535236659-39ab5e6c-3b0c-43c7-8199-395306f31294.png" width="1180" title="" crop="0,0,1,1" id="ubee201f4" class="ne-image">
 
@@ -349,7 +347,7 @@ The WARTHOG-02M is a universal wheeled robot mobile chassis, which adopts dual-m
 
 ---
 
-### <font style="color:#ED740C;">6.3Main technical parameters of mechanical part：</font>
+### <font style="color:#ED740C;">6.3 Main technical parameters of mechanical part：</font>
 | **Indicators** | **Parameters** | **Indicators** | **Parameters** |
 | :---: | :---: | :---: | :---: |
 | <font style="color:rgb(38, 38, 38);">Design Dimensions</font>（mm） | 1450*1220*1000mm | Running speed | 0-16Km/h |
@@ -359,7 +357,7 @@ The WARTHOG-02M is a universal wheeled robot mobile chassis, which adopts dual-m
 
 ---
 
-### <font style="color:#ED740C;">6.4Main technical parameters of electrical part：</font>
+### <font style="color:#ED740C;">6.4 Main technical parameters of electrical part：</font>
 | Power supply voltage | DC48V | <font style="color:rgb(38, 38, 38);">Motor selection</font> | <font style="color:rgb(38, 38, 38);">DC brushless motor</font> |
 | :---: | :---: | :---: | :---: |
 | Overall power | 2000W*4 | <font style="color:rgb(38, 38, 38);">DC brushless motor</font> | ≤50w |
@@ -367,7 +365,7 @@ The WARTHOG-02M is a universal wheeled robot mobile chassis, which adopts dual-m
 
 ---
 
-### <font style="color:#ED740C;">6.5电气原理：     </font>
+### <font style="color:#ED740C;">6.5 Electrical Schematic：     </font>
 <img src="https://cdn.nlark.com/yuque/0/2025/png/35483109/1762583001390-732182cd-99ad-4bea-81da-d4fb1ab57554.png" width="1096" title="" crop="0,0,1,1" id="ubb6b1de6" class="ne-image"><img src="https://cdn.nlark.com/yuque/0/2025/png/35483109/1762583022904-4bed75ca-aa53-4313-b3af-8979153de8fc.png" width="1099" title="" crop="0,0,1,1" id="ubbc58371" class="ne-image">
 
 a) The battery comes standard with 2 * 48V30AH lithium battery, the maximum voltage is 54.6V, and the cut-off discharge voltage is 39V. 
@@ -382,7 +380,7 @@ c) The main relay coil voltage is 48V, the main contact overcurrent is 100A, and
 
 ---
 
-### <font style="color:#ED740C;">6.6开发文档：</font>
+### <font style="color:#ED740C;">6.6 Development Documentation：</font>
 
 > Click to view:
 
@@ -390,7 +388,7 @@ c) The main relay coil voltage is 48V, the main contact overcurrent is 100A, and
 
 ---
 
-### <font style="color:#ED740C;">6.7Safety Precautions：</font>
+### <font style="color:#ED740C;"> 6.7Safety Precautions：</font>
 a）Important statements：
 
 :::info
@@ -428,7 +426,7 @@ The remote controller can be turned off during the movement of the chassis to ar
 
 ---
 
-### <font style="color:#ED740C;">6.8Operating Instructions：</font>
+### <font style="color:#ED740C;">6.8 Operating Instructions：</font>
 **<font style="color:rgb(51,51,51);">1) On/Off Process</font>**
 
 <img src="https://cdn.nlark.com/yuque/0/2025/png/35546073/1762245006011-84c4ecdd-52b3-45ab-8a3b-f13c8bdaa624.png" width="821" title="" crop="0,0,1,1" id="u5a36582d" class="ne-image">
@@ -483,7 +481,7 @@ When charging, please place the charger and chassis (battery) in a ventilated an
 
 ---
 
-### <font style="color:#ED740C;">6.9Maintenance：</font>
+### <font style="color:#ED740C;">6.9 Maintenance：</font>
 **<font style="color:rgb(51,51,51);">1) Maintenance within the operation cycle</font>**
 
 a. Cleaning: Keep the appearance clean. When wiping the exterior paint surface, use a soft cloth and a neutral detergent to avoid damage and scratches on the paint surface. All sliding lubricating surfaces, mating surfaces and oil injection holes shall be free of oil stains. 
@@ -525,7 +523,7 @@ B. Universal joint coupling: in continuous use, the service life of the universa
 
 ---
 
-### <font style="color:#ED740C;">6.10Conditions of transport</font>
+### <font style="color:#ED740C;">6.10 Conditions of transport</font>
 1) Packing size, the smallest packing box is about2100*800*800mm. 
 
 2) handling Requirements 
@@ -586,254 +584,10 @@ For inquiries or feedback, contact:
 <details>
 <summary><h2 style="display:inline; color: #7FDBCA">💾 8 3D CAD Models</h2></summary>
 
-<img width="870" height="597" alt="image" src="https://github.com/user-attachments/assets/265df9fa-b8ff-4e80-9a84-e685093f5880" />
-
-<img width="1904" height="1428" alt="image" src="https://github.com/user-attachments/assets/fbd4d16c-4bfd-47cd-9ff4-b4bfa0cd3c5f" />
-
-*Please open this page in a browser and download:*
-
-[Warthog-01mini_Customer_Communication_Step.7z](https://www.yuque.com/attachments/yuque/0/2024/7z/35546650/1730445599550-f1f25121-bc39-496f-afd1-8d0533479c47.7z)
-
-
-</details>
-
----
-
-<details>
-<summary><h2 style="display:inline; color: #FF9AA2">🔗 9 Extended Models & Related Solutions</h2></summary>
-
-> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/ec2t6yh2v72g2879](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/ec2t6yh2v72g2879)
-
-> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/aacoohpkrzqemalp](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/aacoohpkrzqemalp)
-
-> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/mrggs3l5h4xrglb9](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/mrggs3l5h4xrglb9)
-
-</details>
-
----
-
-,<img src="https://cdn.nlark.com/yuque/0/2025/png/35546073/1763534119485-e5f5930d-123d-4d85-97dc-b6514e77fb66.png" width="955" title="" crop="0,0,1,1" id="ueb054b78" class="ne-image">
-
-[此处为语雀卡片，点击链接查看](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/flwrr6rsbeyfvngd#S3aA5)
-
-[此处为语雀卡片，点击链接查看](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/flwrr6rsbeyfvngd#SVGXf)
-
-![image](https://cdn.nlark.com/yuque/0/2026/jpeg/2802136/1780398079758-445e942c-38d8-4b72-9ed4-d3f25b6e8fdb.jpeg)  
-![image](https://cdn.nlark.com/yuque/0/2026/jpeg/2802136/1780398097545-cb11aed0-a5c4-4361-a0bb-b4b37808e148.jpeg)  
-![image](https://cdn.nlark.com/yuque/0/2026/jpeg/2802136/1780398104468-ca96b1cd-1602-4cbe-8333-4e627d9cb234.jpeg)  
-![image](https://cdn.nlark.com/yuque/0/2026/jpeg/2802136/1780398105298-dd7c3b3b-6ec1-4f36-8ce9-a740a62aa40c.jpeg)  
-![image](https://cdn.nlark.com/yuque/0/2026/jpeg/2802136/1780398107200-1219ecd5-bb51-4dcc-9cc8-2b1ede0e664a.jpeg)  
-![image](https://cdn.nlark.com/yuque/0/2026/jpeg/2802136/1780398109002-e8414fb8-1391-428b-b8bb-6c7b0639cec8.jpeg)  
-
-
-
-### Notice before use
-In order to enable you to use this product more safely and conveniently, the robot provides users with the following documents：
-
-1. List of Items 
-
-2. Disclaimer 
-
-3. Safety Operation Guidelines 
-
-4. Guidelines for Safe Use of Batteries 
-
-5. Quick Start Guide 
-
-6. User Manual 
-
-7. Warranty
-
-It is recommended that users first check whether the documents and items are complete according to the List of Items. Then read this document in detail. Be sure to familiarize yourself with all parts of the product before use. Function, 
-
-if you have any questions about the use of this product, please contact the robot or the authorized organization of the robot.
-
-### <font style="color:#585A5A;">1List of Articles</font>
-| - [ ] <font style="color:rgb(38, 38, 38);">Robot chassis</font>*1      | - [ ] <font style="color:rgb(38, 38, 38);">Remote control and receiver</font>*1            |
-| --- | --- |
-| - [ ] <font style="color:rgb(38, 38, 38);">Control drive</font>*1      | - [ ] <font style="color:rgb(38, 38, 38);">Robot antenna * 1 (or built-in)</font>     |
-| - [ ] <font style="color:rgb(38, 38, 38);">Lithium battery * 1</font> | - [ ] <font style="color:rgb(38, 38, 38);">Charger * 1</font>           |
-| - [ ] <font style="color:rgb(38, 38, 38);">Document 1 (electronic)</font> | - [ ] <font style="color:rgb(38, 38, 38);">VCU chassis controller</font>      |
-| - [ ] <font style="color:rgb(38, 38, 38);">Others:Handle component</font> | |
-
-
-### <font style="color:#ECAA04;">2</font><font style="color:rgb(38, 38, 38);">Disclaimer</font>
-Thank you for purchasing JICUROBOT Chassis products. The content submitted in this article is related to your safety and legal rights and responsibilities. Failure to follow and follow the instructions and warnings in this article may cause injury to you and others around you, and damage to this product and other surrounding items. The final right of interpretation of this document and all related documents of this product belongs to Jichuang Robot. Updates are subject to change without notice. Please visit www.jcrobots.com for the latest product information. 
-
-Once you use this product, it is deemed that you have carefully read the disclaimer and warning, understand, approve and accept all the terms and contents of this statement. You undertake to take full responsibility for the use of this product and the possible consequences. You undertake to use this product only for legitimate purposes, and agree to these Terms and any relevant regulations, policies and guidelines established by JIROBOT. 
-
-Jichuang Robot is not responsible for any damage, injury and any legal liability caused by the direct or indirect use of this product. Users should follow all safety guidelines including but not limited to those mentioned herein. 
-
-This product is not a toy. In order to ensure its reliability, its related parts are made of metal devices. Some parts may have sharp parts and are not suitable for underfill. 
-
-Used by 18-year-olds. 
-
-Do not allow children to touch this product, please pay special attention when operating in the scene with children. 
-
-Notwithstanding the foregoing, consumer rights are protected by local laws and regulations and are not affected by this disclaimer. 
-
-Jichuang robot, Jichuang, 
-
-JROBOT is a trademark of Jichuang Robotics Co., Ltd. The product names and brands appearing in this article are trademarks or registered trademarks to which they belong.
-
-Please read the instructions carefully before use, will help you better development and use of this product. Please be sure to keep this manual to help you choose accessories and maintenance in the future. 
-
-### <font style="color:#DF2A3F;">3Safety Operation Guidelines</font>
-#### <font style="color:#DF2A3F;">3.1 Safety Operation Guidelines</font>
-& ;Operate in open areas away from people, buildings and sources of electromagnetic interference. 
-
-&; Operating in areas below 5000 metres above sea level. 
-
-&; Operate at -20&deg;C to 55&deg;C in good weather (not rain, fog, snow, lightning, wind, or extreme weather). 
-
-&;Operating in legal areas and not on motorized roads. 
-
-&;Operate within 300 m sight distance using RC remote control and 500 m sight distance using industrial remote control. And to ensure that the surrounding environment is empty and safe.
-
-#### <font style="color:#DF2A3F;">3.2</font><font style="color:rgb(38, 38, 38);">Check</font>
-&;Ensure that the robot, remote control and mobile device are fully charged. 
-
-& ;Ensure that the robot battery installation is stable and the loading equipment is reliable. 
-
-&;Ensure that the track or tire is intact and free of foreign matter, and the power and antenna are not damaged. 
-
-&;Make sure the remote control antenna signal is full. 
-
-&;Ensure that the screws of the body and suspension parts are fastened without looseness.
-
-#### <font style="color:#DF2A3F;">3.3Operation</font>
-&; Always operate within sight distance. 
-
-&; Test after starting: turn left, turn right, forward, backward. Operate the machine after there is no abnormality. 
-
-Do not accelerate or decelerate rapidly during the operation of the novice. 
-
-When starting up, make sure to turn on the power of the remote control first, then turn on the power of the robot and make an emergency stop. 
-
-&; Turn off the robot chassis before turning off the remote control. To avoid the loss of remote control signal, start the relevant mode. 
-
-When a novice starts to control the vehicle, first control the vehicle at a low speed in an open field, practice more, and have a process of adapting and familiarizing with the vehicle control. Please push the rocker at a constant speed and slowly when controlling the rocker. 
-
-Rod, because the drive start-stop ramp time is short, so frequent sudden start-stop will increase. 
-
-Load of motor, drive, battery. 
-
-&; The remote control can be switched off during chassis movement to simulate an emergency. Practice several times to shoot the chassis emergency stop button in time to enhance the emergency handling capacity.
-
-#### <font style="color:#DF2A3F;">3.4</font><font style="color:rgb(38, 38, 38);">Maintenance</font>
-&;Please check and clean up the foreign matter in the track or tire at each operation. Oil filling maintenance according to the maintenance manual. 
-
-The robot, remote control and lithium battery are suitable for long-term storage in an environment of 22 degrees Celsius to 28 degrees Celsius. 
-
-&; Lithium battery maintenance matters refer to the maintenance manual. 
-
-&; For long-term parking, please disconnect the connector of the battery charging and discharging port to ensure that the battery has about 80% capacity and is charged once a month to prevent the battery from being damaged by power loss. 
-
-&; Lubrication of worm gear reducer: replace the lubricating oil after 500 hours of operation for the first time, and then change the oil every 6000 hours of use. It is forbidden to mix oils of different grades, and oils of the same grade but different viscosity are allowed to be mixed. The quality of the oil should be checked regularly. If the oil has impurities, aging or deterioration, it must be replaced at any time. Oil injection must measure the amount of oil when the reducer stops running and add an appropriate amount of worm gear reducer lubricating oil, which is added to 3/4 of the reducer space. Oil brand ISO vg320.
-
-### <font style="color:#74B602;">4Battery Safety Guidelines</font>
-Incorrect use, charging or storage of batteries may result in fire or physical and personal injury. Always use the battery according to the following safety guidelines.
-
-#### <font style="color:#74B602;">4.1、use</font>
-&; Make sure the battery is fully charged before each use. 
-
-&; Do not immerse the battery in water or get it wet. Do not use the battery in the rain or in a humid environment. After the battery is connected to water, it can be 
-
-can occur decomposition reaction, triggering the battery Spontaneous Combustion 
-
-it could even cause an explosion. 
-
-&; The use of unofficially supplied batteries is strictly prohibited. For replacement, please consult us for purchase information. We are not responsible for any battery accidents or failures caused by the use of unofficial batteries. 
-
-It is strictly forbidden to use bulging, leaking or damaged batteries. If the above situation occurs, please contact the robot or its designated supplier for further processing. 
-
-&; The battery should be used at an ambient temperature of -20~50 ℃. If the temperature is too high, it may cause the battery to catch fire or even explode. If the temperature is too low, the battery life will be seriously damaged. 
-
-&; Do not use the battery in strong static electricity or magnetic fields. Otherwise, the battery protection board will fail, resulting in a malfunction. 
-
-&; Do not disassemble or puncture the battery with sharp objects in any way. Otherwise, it will cause the battery to fire or even explode. 
-
-The liquid inside the battery is highly corrosive. If there is leakage, the battery shall not be used. 
-
-&; If the battery is severely hit or dropped by external force, it must not be used again. 
-
-&; Do not short-circuit the positive and negative poles of the battery with wires or other metal objects. 
-
-&; Do not hit the battery. Do not place heavy objects on the battery or charger. 
-
-&; If the battery connector is dirty, wipe it off with a dry cloth. Otherwise, it will cause poor connection, resulting in energy loss or inability to charge.
-
-&; Do not continue to use the battery when the battery power is less than 10%, otherwise the battery will be damaged.
-
-#### <font style="color:#74B602;">4.2、charge</font>
-&; It must be charged using a special charger provided by the official. The robot will not be held responsible for all the consequences of using unofficial chargers. 
-
-When charging, please place the battery and charger on the ground without flammable and combustible materials around cement. Please pay attention to the charging process to prevent accidents. 
-
-&; Before charging, please keep the smart flight battery power off, otherwise the power interface may be damaged. 
-
-&; Disconnect the charger from the battery or robot after charging. Regularly check and maintain the charger, often check the appearance of the battery and other components.
-
-#### <font style="color:#74B602;">4.3、Storage and Transportation</font>
-&;If the battery is low after use, or the battery is not used for more than 30 days, it needs to be charged to more than 30%-50% for storage. Otherwise, storage for a long time may cause damage to the battery. Cut 
-
-do not store the battery for a long time after it is completely discharged, so as to prevent the battery from entering the over-discharge state, causing damage to the battery core and unable to resume use. 
-
-&; Do not place the battery near a heat source, such as a car in direct sunlight or hot weather, a fire source, or a heating furnace. The ideal storage temperature of the battery is 25 ℃. 
-
-&; Store the battery in a dry environment. Do not place the battery in water or where it may leak. 
-
-&; Do not mechanically impact, crush, puncture the battery, do not drop the battery or artificial short circuit. 
-
-&; Do not store or transport the battery with other sharp metal objects. 
-
-&; Do not transport batteries that are damaged or have a battery charge of more than 30%.
-
-
-
-#### <font style="color:#74B602;">4.4、</font><font style="color:rgb(38, 38, 38);">Abandoned</font>
-&; Be sure to completely discharge the battery before placing it in the designated battery recycling bin. Batteries are dangerous chemicals and are strictly prohibited from being discarded in ordinary dustbins. 
-
-&;For details, please follow the local laws and regulations on battery recycling and disposal.
-
-#### <font style="color:#74B602;">4.5、Maintenance</font>
-&; If the battery is left idle for a long time, its performance will be affected. 
-
-&; Re-charge and discharge every 3 months or so to keep the battery active. 
-
-&; Do not store the battery at room temperature above 50&deg;C or below -20&deg;C.
-
-### <font style="color:#117CEE;">5Quick Start Guide</font>
-
-
-
-
-### <font style="color:#ED740C;">6.</font><font style="color:rgb(38, 38, 38);">User Manual</font>
-
-
-
-
-### <font style="color:#601BDE;">7Warranty</font>
-If the content is updated, you can check the latest version on the official website of Chuang Robot without prior notice.
-
-https//www.jcrobots.com
-
-If you have any questions or suggestions, please contact the following email address 
-
-contact Us：jcrobot@163.com
-
-| <font style="color:rgb(38, 38, 38);">Customer Name</font> |  | | <font style="color:rgb(38, 38, 38);">Contract No</font> |
-| --- | --- | --- | --- |
-| Contact |  | | Contact Phone |
-| Fault Description | | <font style="color:rgb(38, 38, 38);">Maintenance Records</font> | Repairman |
-|  | | <br/> |  |
-| | | <font style="color:rgb(38, 38, 38);">Quality inspector</font> | |
-| | |  | |
-
-
-### <font style="color:#ED740C;">8</font><font style="color:rgb(38, 38, 38);">Three-dimensional mathematical model</font>
 <img src="https://cdn.nlark.com/yuque/0/2025/png/35546073/1763542380044-3614af9f-b75b-4a9f-8974-39d1386b234c.png" width="829" title="" crop="0,0,1,1" id="ua7119d95" class="ne-image">
 
 _Please use your browser to open this page and download it._
 
 [Warthog-02M-Pro 4WD Chassis (2).zip](https://www.yuque.com/attachments/yuque/0/2026/zip/35546073/1769412723869-9d64fcc9-879d-4a76-9747-7cb26107e01f.zip)
+
+</details>
