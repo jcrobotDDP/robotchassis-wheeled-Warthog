@@ -1,5 +1,6 @@
 # <span style="color: #FF6B6B">Warthog-02-M Differential Non‑Suspension Chassis User Guide</span>
 
+<img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/df4c83ea-6c0d-4f96-9360-7add41c8c79e" />
 
 ## Pre-use Notice
 
@@ -294,8 +295,220 @@ For Ackermann wheeled chassis or gun-style handheld remote controllers, refer to
 
 <details>
 <summary><h2 style="display:inline; color: #FCBAD3">📖 6 User Manual</h2></summary>
-  
 
+### 6.1 Product Overview
+
+The WARTHOG-02M is a general‑purpose wheeled robot mobile chassis. It features a dual‑motor four‑wheel‑drive differential drive system, equipped with brushless DC motors and drivers. The motors are fitted with encoders, and the drivers offer comprehensive communication interfaces. This chassis is fully featured and highly integrated, with various customisable configurations to suit multiple operating conditions. The independently developed double‑wishbone suspension delivers excellent torsional strength and lateral rigidity, providing outstanding vehicle stability, handling performance, and high terrainability. The standard power lithium battery is 48V 30Ah (with an optional 48V 60Ah upgrade), and the system is equipped with a BMS battery protection system. The chassis uses explosion‑proof solid tyres, offering strong terrain adaptability and low maintenance. The exterior housing has been carefully designed with industrial aesthetics, facilitating the installation of various electrical equipment. This chassis is suitable for all applications where wheeled chassis are required, and can be widely used in special‑purpose robot industries such as reconnaissance, inspection, exploration, scientific research, and education.
+
+---
+
+### 6.2 Technical Dimensions (Diagram)
+
+<img width="1077" height="944" alt="image" src="https://github.com/user-attachments/assets/19d4a0cd-1de1-4816-b59f-e877d849ad18" />
+
+ – *390mm tyre dimensions with housing*
+
+<img width="1323" height="997" alt="image" src="https://github.com/user-attachments/assets/b0a3643b-33dd-4d86-ad54-26fc0097f8bd" />
+
+ – *390mm tyre dimensions without housing*
+
+*Dimensions shown in the diagram are in mm.*
+
+---
+
+### 6.3 Mechanical Specifications
+
+**1) Optional tyre outer diameter: 390 mm**
+
+| **Parameter** | **Value** | **Parameter** | **Value** |
+| :--- | :---: | :--- | :---: |
+| Overall dimensions (mm) | 955 × 690 × 400 mm | Operating speed | 0 – 5.5 km/h |
+| Chassis weight (with housing) | 139 kg | Chassis weight (without housing) | 120 kg |
+| Ground clearance | 125±15 mm (depends on load) | Protection rating | IP54 (upgradeable to IP64) |
+| Motor | 2 × 1500 W | Reducer gear ratio | 20 |
+| Rated payload | 125 kg | Battery | 48 V |
+| Drive wheel diameter | 390 mm | Battery voltage | 48 V |
+| Max climbing angle | 30° | Max gap crossing | 100 mm |
+
+---
+
+**2) Optional tyre outer diameter: 450 mm**
+
+| **Parameter** | **Value** | **Parameter** | **Value** |
+| :--- | :---: | :--- | :---: |
+| Overall dimensions (mm) | 955 × 698 × 450 mm | Operating speed | 0 – 6.3 km/h |
+| Chassis weight (with housing) | 144 kg | Chassis weight (without housing) | 125 kg |
+| Ground clearance | 155±15 mm (depends on load) | Protection rating | IP54 (upgradeable to IP64) |
+| Motor | 2 × 1500 W | Reducer gear ratio | 20 |
+| Rated payload | 90 kg | Battery | 48 V |
+| Drive wheel diameter | 450 mm | Battery voltage | 48 V |
+| Max climbing angle | 30° | Max gap crossing | 100 mm |
+
+<img width="1013" height="813" alt="image" src="https://github.com/user-attachments/assets/fdba07ad-13b5-4bb6-b2e0-2303587f85fd" />
+
+**Battery:** Single battery 48V 30Ah; two units can be installed.
+
+---
+
+### 6.4 Electrical Specifications
+
+| Parameter | Value | Parameter | Value |
+| :--- | :---: | :--- | :---: |
+| Supply voltage | DC 48 V | Motor type | Brushless DC motor |
+| Max total power | 1500 W × 2 | Standby power consumption | ≤ 50 W |
+| Brake type (optional) | Power‑off braking type | Brake voltage | DC 48 V |
+| Encoder (optional) | 1024 lines | Driver model | JCDBL6050‑2E |
+| Chassis total weight | 136 kg | Chassis total current | 20 A |
+
+---
+
+### 6.5 Electrical Schematic
+
+<img width="1011" height="757" alt="image" src="https://github.com/user-attachments/assets/6a9d0ebd-850b-4563-81bd-da87abde90d1" />
+
+a) **Battery**: Standard 48V 30Ah lithium battery, maximum voltage 54.6V, cut‑off discharge voltage 39V.  
+**Note:** Use the dedicated 48V lithium battery charger. Battery failure caused by over‑discharge is not covered under warranty.
+
+b) **Driver operating conditions:** Temperature -10°C to +60°C, humidity ≤ 80% RH.  
+**Note:** Ensure the driver operates within these conditions; problems arising from unsuitable environments are not covered under warranty.
+
+c) **Main relay:** Coil voltage 48V, main contact current 100A, normal temperature rise 60°C.
+
+d) **Receiver power:** Default power is supplied from the driver, output 5V/20mA. If the receiver is used to drive high‑power loads, it may cause the driver to lose control – in such cases, use an external 5V power supply.
+
+---
+
+### 6.6 Development Documentation
+
+> Click to view:
+
+[JC-VCU-02 Produvt Guide and Software](https://github.com/jcrobotDDP/JCROBOT-Product-Development-Documentation/blob/main/docs/JC-VCU-02%20Product%20Guide%20and%20Software.md)
+
+---
+
+### 6.7 Safety Precautions
+
+a) **Important statement:** To ensure safe use, read this manual carefully before operation. When operating any Jichuang product, always pay attention to personal and equipment safety. The manufacturer and distributor assume no responsibility for any consequences arising from the operation and use of this product. This product is intended only for adults with safety awareness and the ability to handle emergencies. After sale, we assume no safety responsibility for its operation or use.
+
+b) **Pre‑operation inspection:**
+- Check the condition of each component before operation to ensure a good experience.
+- Check for missing or loose nuts and bolts.
+- Check that the drive wheel fastening screws are tight.
+- Check that the suspension system is properly aligned.
+- Check that the antenna is effectively connected.
+
+c) **Operational notes:**
+- Do not operate the vehicle when the remote controller low‑voltage alarm sounds, as sudden signal loss may cause loss of control.
+- Ensure the receiver antenna is properly connected before powering on.
+- When the remote controller indicator dims, the battery is low – replace the batteries.
+- When the chassis power battery is low, the vehicle speed will decrease – recharge promptly.
+
+**Special reminder:**  
+Beginners should first practise at low speed in an open area to become familiar with the controls. When moving the joysticks, push them smoothly and slowly. Because the driver's acceleration/deceleration ramp time is short, frequent sudden starts and stops will increase load on the motors, drivers, and battery.
+
+You may simulate a loss‑of‑control situation by turning off the remote controller while the chassis is moving; at that moment, press the emergency stop button immediately. Practise this repeatedly to improve emergency response skills.
+
+---
+
+### 6.8 Operating Instructions
+
+**1) Power‑on/off sequence**
+
+First, turn on the remote controller power switch, then turn on the chassis main power and release the emergency stop. Wait for the receiver to establish communication (remote controller shows full signal). Then operate the remote controller to start movement.
+
+**Power‑on sequence:** 1. Turn on remote controller first, 2. Then turn on chassis power.
+
+**2) Remote controller operation**
+
+This chassis uses the driver internal mixing mode (Mode 1). Channels 2 and 4 independently control straight motion and steering. The right joystick controls chassis movement in 8 directions, all proportionally controlled – joystick deflection angle determines speed.
+
+Avoid abrupt large movements and frequent sudden starts/stops.
+
+**3) Binding the remote controller and receiver**
+
+a. Power on the receiver. Press and hold the binding button on the side of the receiver for 3 seconds – the receiver enters binding mode, with the red LED flashing slowly.
+
+b. Power on the remote controller (ensure only one compatible remote controller is powered on nearby). Keep it close to the receiver, and wait for the receiver to receive the binding signal.
+
+c. When the receiver red LED stays on, binding is successful.
+
+**Note:** Binding is usually completed at the factory.
+
+**4) Battery charging**
+
+a. Unscrew the dust cap from the 2‑pin aviation charging connector on the chassis.
+
+b. Plug the charger's 2‑pin aviation connector into the chassis (observe polarity: Pin 1 positive, Pin 2 negative).
+
+c. Connect the charger to 220V AC mains.
+
+d. When the charger indicator changes, continue balanced charging for 1 hour to complete the process.
+
+e. Disconnect from AC mains, unplug the charger, tighten the waterproof cap, and store the charger properly for future use.
+
+**Important:** Charging time = battery capacity / charging current + 1 hour (balancing time). Someone should monitor the charging process; do not overcharge for extended periods. Place the charger and chassis (battery) in a cool, well‑ventilated area, away from heat and fire sources.
+
+---
+
+### 6.9 Maintenance and Servicing
+
+**1) Routine maintenance during operation**
+
+a. **Cleaning:** Keep the exterior clean. Wipe painted surfaces with a soft cloth and neutral cleaner to avoid damage and scratches. Ensure all sliding surfaces, mating surfaces, and lubrication points are free of oil and dirt.
+
+b. **Lubrication:**  
+1. The reducer is factory‑filled with ISO VG320 lubricating oil; no initial refill is needed. After 500 hours of continuous operation, change the lubricating oil; thereafter, change every 6000 hours. Fill quantity 0.15L.  
+2. The maximum allowable oil temperature for the reducer is 85°C; if exceeded, stop and inspect.  
+3. If the reducer has been stored for more than 4‑6 months without the oil seal being immersed in oil, replacement of the oil seal is recommended.
+
+c. **Adjustment:** Regularly inspect all fasteners for tightness; check for loose or missing screws to ensure safety, reliability, and control accuracy.
+
+d. **Safety:** Regularly verify that controls are responsive and reliable, and that active and passive safety devices (such as collision bumpers, emergency stop switches, service brakes, parking brakes, and steering controls) operate correctly.
+
+**2) Long‑term storage maintenance**
+
+a. If the chassis will be stored for a long period, keep it in a cool, dry, and well‑ventilated environment. Protect from dust and keep components clean. Apply oil lubrication to moving parts and mating surfaces.
+
+b. For extended storage, disconnect the battery charge/discharge connectors, maintain about 80% capacity, and check and recharge at least once a month.
+
+c. When recommissioning the chassis, ensure all parts are well lubricated and the reducer oil has not aged or deteriorated.
+
+**3) Replacement of wear parts and accessories**
+
+a. **Bearings:** If wheel assemblies become loose, noisy, or jammed, replace the bearings with the same model (3205‑2RS, 4 pieces per chassis).
+
+b. **Universal joint couplings:** Under continuous use, the universal joint coupling has a service life of approximately one year. If the universal joint coupling reaches the end of its service life due to wear or fails due to impact loading, contact the manufacturer to purchase replacement couplings.
+
+**4) Common faults and troubleshooting**
+
+| No. | Fault Symptom | Possible Cause | Solution |
+| :---: | :--- | :--- | :--- |
+| 1 | No response to remote control | Chassis main power off; emergency stop not released; remote battery low; receiver not bound | Turn on main power; release emergency stop; replace batteries; perform binding procedure |
+| 2 | Chassis speed becomes very slow | Power battery low | Charge the battery |
+| 3 | No movement and driver red LED stays on | Excessive ambient humidity | Dry the driver |
+| 4 | Remote control range decreases | Receiver antenna loose or disconnected | Tighten the receiver antenna |
+
+---
+
+### 6.10 Transport Conditions
+
+**1) Packaging dimensions:** Minimum carton approx. 1000 × 800 × 500 mm.
+
+**2) Handling requirements:**
+
+a. The chassis is packed in a wooden crate with a wooden pallet base; total mass 150 kg. Use a pallet jack or forklift to move the pallet. When moving, do not tilt the crate more than 15 degrees. Ensure the fork fully supports the pallet to prevent tipping due to uneven centre of gravity. **Do not lift by the top cover or side panels** – the pallet may detach and damage the chassis.
+
+b. The chassis may be driven onto the pallet using the remote controller. After placing it correctly, disconnect power, press the emergency stop, and preferably disconnect both discharge and charging connectors to prevent short circuits during transport.
+
+c. When manually handling the chassis, ensure it is powered off.
+
+**3) Transport environment notes:**
+
+a. Do not invert the crate during transport.
+
+b. Keep the crate dry.
+
+c. Avoid strong vibrations during transport.
 
 </details>
 
@@ -333,7 +546,17 @@ For inquiries or feedback, contact:
 <details>
 <summary><h2 style="display:inline; color: #7FDBCA">💾 8 3D CAD Models</h2></summary>
 
+<img width="1638" height="1052" alt="image" src="https://github.com/user-attachments/assets/8b55a0ed-0bb5-4e0a-bfc5-7667ed82106f" />
 
+*Please open this page in a browser and download:*
+
+[Customer_Communication_Warthog02M_New_Standard_With_Housing.rar](https://www.yuque.com/attachments/yuque/0/2023/rar/2802136/1690247796343-70d0e331-efc1-4b52-a331-58ed9ab97f4b.rar)
+
+<img width="1749" height="926" alt="image" src="https://github.com/user-attachments/assets/d9a5bedf-6ea4-461b-b416-581d7401ede2" />
+
+*Please open this page in a browser and download:*
+
+[Customer_Communication_Warthog02M_New_Standard_Without_Housing.rar](https://www.yuque.com/attachments/yuque/0/2023/rar/2802136/1690247812007-9e9d1461-66f3-4c5a-879c-71db8dcbf02e.rar)
 
 </details>
 
@@ -342,6 +565,15 @@ For inquiries or feedback, contact:
 <details>
 <summary><h2 style="display:inline; color: #FF9AA2">🔗 9 Extended Models & Related Solutions</h2></summary>
 
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/ize7blrwbcerq74w?singleDoc# 《3D Mapping Robot Warthog-02M》](http://invalid.uri)
+
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/tdex29zv9e9g2eg5?singleDoc# 《Water Quality Management Robot - Warthog-02M》](http://invalid.uri)
+
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/ehwsfk6vm0n2k9bz](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/ehwsfk6vm0n2k9bz)
+
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/dwrb5q5almli9xw4](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/dwrb5q5almli9xw4)
+
+> Yuque content card – click to view: [https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/rpzgp76teig00i6r](https://www.yuque.com/jichuangjiqirenjcrobot/qokzma/rpzgp76teig00i6r)
 
 </details>
 
